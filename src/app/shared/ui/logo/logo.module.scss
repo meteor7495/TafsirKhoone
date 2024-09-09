@@ -1,6 +1,5 @@
 .root {
     h1 {
-        font-size: 20px;
-        color: $primary;
+        @apply text-primary text-xl;
     }
 }
