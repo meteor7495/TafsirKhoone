@@ -93,6 +93,13 @@ export default function RootLayout({
 }>) {
     return (
         <html dir="rtl" className={`${IranYekan.variable} ${Gilroy.variable}`}>
+            <head>
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+                <link rel="stylesheet" href="/fonts/icon/style.css" />
+            </head>
             <body>
                 <Providers>
                     <Header />

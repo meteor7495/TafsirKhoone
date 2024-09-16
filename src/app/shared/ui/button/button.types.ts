@@ -1,5 +1,5 @@
 import { ButtonProps } from "@mantine/core";
 
-export interface IProps extends ButtonProps {
+export interface IButtonProps extends ButtonProps {
     children: React.ReactNode;
 }

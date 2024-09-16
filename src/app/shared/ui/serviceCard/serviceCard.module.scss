@@ -1,0 +1,6 @@
+.root {
+    @apply flex cursor-pointer left-0 top-0 relative items-center justify-between text-white rounded-xl px-8 shadow-2xl transition-all;
+    &:hover {
+        @apply bg-none bg-accent text-success-content;
+    }
+}

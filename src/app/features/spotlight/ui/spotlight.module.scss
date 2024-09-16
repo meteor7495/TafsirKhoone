@@ -1,3 +1,12 @@
 .spotlight {
-    @apply flex p-20 pb-0 rounded-2xl bg-primary;
+    @apply flex relative p-16 rounded-2xl bg-primary justify-between;
+    h1 {
+        @apply text-white;
+    }
+    p {
+        @apply text-white w-full max-w-[450px] text-justify;
+    }
+    img {
+        @apply relative -bottom-16 m-auto;
+    }
 }

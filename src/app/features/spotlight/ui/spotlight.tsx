@@ -1,4 +1,4 @@
-import { Typography } from "@shared/ui";
+import { Icon, ServiceCard, Text, Title } from "@shared/ui";
 import { IProps } from "../model";
 import styles from "./spotlight.module.scss";
 import Image from "next/image";
@@ -6,23 +6,39 @@ import Image from "next/image";
 export const Spotlight = ({ data }: IProps) => {
     return (
         <div className={styles.spotlight}>
-            <div>
+            <div className="flex flex-col gap-4 justify-center">
                 <div>
-                    <Typography>{data.title}</Typography>
+                    <Title size={"64"} order={1}>
+                        {data.title}
+                    </Title>
                 </div>
                 <div>
-                    <Typography>{data.text}</Typography>
+                    <Text size={"lg"}>{data.text}</Text>
                 </div>
             </div>
             <div>
                 <div>
                     <Image
-                        width={535}
-                        height={592}
+                        width={335}
+                        height={392}
                         src={data.image}
                         alt={data.title}
                     />
                 </div>
+            </div>
+            <div className="flex flex-col gap-4 justify-center">
+                <ServiceCard>
+                    تفسیر آزمایش ساده <Icon icon="chevron-left" />
+                </ServiceCard>
+                <ServiceCard>
+                    تفسیر آزمایش قند و فشار <Icon icon="chevron-left" />
+                </ServiceCard>
+                <ServiceCard>
+                    تفسیر آزمایش کامل <Icon icon="chevron-left" />
+                </ServiceCard>
+                <ServiceCard>
+                    بررسی تداخل های دارویی <Icon icon="chevron-left" />
+                </ServiceCard>
             </div>
         </div>
     );
