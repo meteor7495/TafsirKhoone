@@ -1,4 +1,4 @@
-import { Logo } from "@shared/ui";
+import { Logo } from "../../_shared/ui";
 import styles from "./header.module.scss";
 import { MainMenu } from "./mainMenu";
 

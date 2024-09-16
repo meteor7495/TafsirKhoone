@@ -1,4 +1,4 @@
-import { Icon, ServiceCard, Text, Title } from "@shared/ui";
+import { Icon, ServiceCard, Text, Title } from "../../../_shared/ui";
 import { IProps } from "../model";
 import styles from "./spotlight.module.scss";
 import Image from "next/image";

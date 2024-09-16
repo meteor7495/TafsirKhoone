@@ -1,4 +1,4 @@
-import { Size } from "@shared/types";
+import { Size } from "../../types";
 import classNames from "classnames";
 import { IServiceCardProps } from "./serviceCard.interface";
 import styles from "./serviceCard.module.scss";

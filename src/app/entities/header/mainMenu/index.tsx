@@ -1,4 +1,4 @@
-import { Link } from "@shared/ui";
+import { Link } from "../../../_shared/ui";
 import styles from "./mainMenu.module.scss";
 
 export const MainMenu = () => {

@@ -1,4 +1,4 @@
-import { ComponentBase } from "@shared/types";
+import { ComponentBase } from "../../types";
 import { HTMLAttributes } from "react";
 
 export interface IServiceCardProps

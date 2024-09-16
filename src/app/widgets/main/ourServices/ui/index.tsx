@@ -1,5 +1,5 @@
 import { IData, Spotlight } from "@features/spotlight";
-import { Title } from "@shared/ui";
+import { Title } from "../../../../_shared/ui";
 
 export const OurServicesWidget = () => {
     const data: IData = {
