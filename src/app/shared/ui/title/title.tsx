@@ -1,6 +1,6 @@
 import { Title as MantineTitle } from "@mantine/core";
-import { IProps } from "./title.interface";
+import { ITitleProps } from "./title.interface";
 
-export const Title = ({ children, ...rest }: IProps) => {
+export const Title = ({ children, ...rest }: ITitleProps) => {
     return <MantineTitle {...rest}>{children}</MantineTitle>;
 };

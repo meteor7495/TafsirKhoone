@@ -1,5 +1,5 @@
 import { Button as MantineButton } from "@mantine/core";
-import { IProps } from "./button.types";
+import { IButtonProps } from "./button.types";
 import styles from "./button.module.scss";
 
 export const Button = ({
@@ -7,7 +7,7 @@ export const Button = ({
     variant = "filled",
 
     ...rest
-}: IProps) => {
+}: IButtonProps) => {
     return (
         <MantineButton className={styles.btn} variant={variant} {...rest}>
             {children}

@@ -1,5 +1,5 @@
 import { TitleProps } from "@mantine/core";
 
-export interface IProps extends TitleProps {
+export interface ITitleProps extends TitleProps {
     children: React.ReactNode;
 }

@@ -1,5 +1,5 @@
 import { TextProps } from "@mantine/core";
 
-export interface IProps extends TextProps {
+export interface ITextProps extends TextProps {
     children: React.ReactNode;
 }
